@@ -1,5 +1,5 @@
 {
-  "name": "cpf-validator",
+  "name": "easy-cpf",
   "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "easy-cpf": "^1.1.0"
   }
 }

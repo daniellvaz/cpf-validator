@@ -4,12 +4,21 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  easy-cpf:
+    specifier: ^1.1.0
+    version: 1.1.0
+
 devDependencies:
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
 
 packages:
+
+  /easy-cpf@1.1.0:
+    resolution: {integrity: sha512-EnfAp2733B6ZbAwX06Soz6gPJhhYBmEEukZHGFcwDW9CtrkXhwwmhzrkXtdZXDdG47oB3yIw/CEkaLQ4B/UJlQ==}
+    dev: false
 
   /typescript@5.3.3:
     resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
